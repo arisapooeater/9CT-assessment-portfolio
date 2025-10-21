@@ -12,20 +12,32 @@ Problem Statement
 Skill Development
 
 ### Requirements Outline
-**Inputs** - We will require inputs like the ↑ ↓ → ← keys for player movement as well as the space bar for hitting the ball. Another input you would need is the ball going over the net and the ball touching the ground. 
+**Inputs** - The game will require the ↑ ↓ → ← keyboard keys for player movement as well as the space bar for jumping. It will also require mouse clicks for NPC conversations.
 
-**Processes** - My project should be able to identify and process ↑ ↓ → ← key inputs and make the player move a set distance with the player running animation. Similarly, the system should be able to process the space bar and perform the player hitting action. 
+**Processes** - My project should be able to process keyboard inputs and calculate the new player position, check for the ball's collisions with ground to reset the simulation and rally score. It should also be able to identify when the ball goes over the net (through the use of colliders) and calculate the rally score accordingly. The game should also process player clicks on UI elements (speech choices) so NPC characters can respond accordingly.
 
-**Outputs** - You can move your player around and hit the ball. When the ball goes over the net, the score should increase one point, but when the ball touches the ground, the game and rally score should reset. 
+**Outputs** - The game will display the player's rally score, position in game and updates such as 'Game Over'. 
 
-**Transmission** - My project should be able to transmit rally score into  high score in the start/reset menu.
-
-**Storage** - Each time the ball goes over the net the game should store one point for the rally score, which the player should be able to see the whole time.
+**Storage** - The game will store the player's high scores locally, which they will be able to view in the start menu. The game will also store player settings, such as music and fx volume.
 
 ### Functional
-1. 
-### Non-Functional Requirements
-1.  
+1. **User interaction**
+
+The user will interact with the game through a combination of keyboard commands and mouse clicks. The user can perform player movement through the directional keyboard keys ↑ ↓ → ← and can jump using the space bar. The player may also interact with their NPC opponent at the beginning/end of the game by clicking UI options to respond.
+
+2. **Scoring and Feedback**
+
+When the system detects the ball going over the net (using a collider), the player will receive updates in the rally scoreboard. When the system detects the ball colliding with the ground, it will trigger the feedback response 'GAME OVER!'. When the rally score becomes higher than a previously stored high score, the feedback 'NEW HIGH SCORE!' will be displayed on the screen.
+
+3. **Saving and Loading Data**
+
+The game will store high scores in the start menu and the game settings usch as music and fx volume locally on the user's device. 
+
+### Non-Functional
+1. **Performance Requirements**
+2. **Usability Requirements**
+3. **Security Requirements**
+4.
 
 ### Social and Ethical Issues
 Consider and analyse any social or ethical issues related to your proposed game or simulation. How will it impact users and society?
