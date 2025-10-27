@@ -57,29 +57,30 @@ The user data that will be in the game like the high score and game settings wil
 The game should be able to scale to include possible future different intensities and modes like competitive or collaborative local multiplayer without affecting the game's performance or creating noticeable lag.
 
 ---
-### Social and Ethical Issues (short paragraph for each)
+### Social and Ethical Issues 
 #### Equity and accessibility - What does it mean?
 
 ``` Equity is the quality of being just, fair and addressing existing inequalities and discrimination so everyone regardless of factors like gender, age and abilities is treated equally. Accessibility is the term for when something is easily usable for people, including those with disabilities or other factors. It's about removing limiting barriers so everything is ACCESSIBLE to everyone```
 1. **Accessibility**
-Consideration: Will your project be usable by people of all abilities?
 
-Guidance: Ensure your project includes features like subtitles, alternative controls, or visual adjustments to accommodate users with disabilities.
-The game should be usable for a diverse range of abilities and should be able to be adjusted in the settings for things like brightness, volume and text size. 
+My project will be accessible to a wide range of abilities and should be adjustable to accommodate user needs. This means the game should include features like brightness, volume and text size adjustment and visual impairments will be considered when creating UI elements and choosing the colour palette for my game by implementing high visual contrast to make the game as readable and clear as possible. The game will also employ simple controls like the directional keys and space button to keep the game simple and easy to use for a variety of abilities.
 
 2. **Privacy and Data Protection**
-Consideration: Will your project collect user data?
-Guidance: If your game collects any personal information (e.g., high scores), ensure it's stored securely and only with user consent.
+
+My game will most likely not be collecting user data due to the time constraints of this project but if I have time, the game will store high scores locally. If I implement the high score, I will ensure only essential information such as the score is stored and no sensitive data is stored. Additionally, the high score data should be stored securely in the game's local storage to protect it from unauthorised access or data leaks to ultimately ensure user privacy is respected.
+
 3. **Fairness and Representation**
-Consideration: Does your project avoid stereotypes or bias?
-Guidance: Make sure your characters and scenarios are diverse and avoid harmful stereotypes based on gender, race, or culture.
+
+My project will be based on a futuristic junk-yard style with animal characters so there are minimal areas where social stereotypes could arise. Nonetheless, I will ensure that my characters are diverse and cannot be interpreted as harmful imagery toward any gender, race or culture. I’ll also aim to give each character a distinct style to ensure fair representation and balance within the game.
 
 4. **Mental and Emotional Well-being**
-Consideration: Could your game or simulation affect users’ mental health?
-Guidance: Avoid distressing content and make sure the game promotes a positive experience (e.g., avoid excessive violence or manipulation).
+
+My project will positively impact users’ mental health by exercising their mind with a highly interactive game while avoiding distressing content. Although volleyball is inherently a competitive sport, my game will focus on having a higher rally with your NPC friend and I would like to build a fun and relaxing atmosphere that enhances the wellbeing of players.
+
 5. **Cultural Sensitivities**
-Consideration: Could any content be offensive to different cultures?
-Guidance: Be mindful of symbols or themes that might be inappropriate or misunderstood by users from different cultural backgrounds.
+
+My project has minimal representation of any cultures and specific symbols as the characters are non-human. However, while making this project I will avoid being inspired off specific countries and cultures that I am not familiar with and may misrepresent and will also ensure any symbols or themes I use are used with caution. While keeping this in mind, I hope to create a game that is both inclusive and culturally aware.
+
 
 
 ## Researching and Planning 
