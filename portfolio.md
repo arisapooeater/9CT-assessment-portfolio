@@ -4,7 +4,9 @@
 **BRAINSTORM**
 - Pretty world in 3D with 2D elements where you explore the city, talk to people and pick up trash to spread awareness about urban pollution while calming players
 - Volleyball-esque game on UNITY that is low-stakes, charming and simple that can be played to help people improve hand-eye coordination, and timing while still having fun.
-- 
+- Fishing in a whack-a-mole style to help increase reaction timing and general motor skills in a fast-paced and interactive game.
+- Continuing with my 'Peach to Peach' game by also creating multiplayer and making interactable characters and enemies to make a world-based game for kobito zukan fans.
+- Dating sim where you talk to bugs and pick your match that helps entertain users in their free time
 
 ---
 ### Need Statement
