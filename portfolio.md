@@ -30,15 +30,15 @@
 ### Functional Requirements
 1. **User interaction**
 
-The user will interact with the game through a combination of keyboard commands and mouse clicks. The user can perform player movement through the directional keyboard keys ↑ ↓ → ← and can jump using the space bar. The player may also interact with their NPC opponent at the beginning/end of the game by clicking UI options to respond.
+The user will interact with the game through a combination of keyboard commands and mouse clicks. The user can perform player movement through the directional keyboard keys ↑ ↓ → ← and can jump using the space bar. 
 
 2. **Scoring and Feedback**
 
-When the system detects the ball going over the net (using a collider), the player will receive updates in the rally scoreboard. When the system detects the ball colliding with the ground, it will trigger the feedback response 'GAME OVER!'. When the rally score becomes higher than a previously stored high score, the feedback 'NEW HIGH SCORE!' will be displayed on the screen.
+When the system detects the ball going over the net (using a collider), the player will receive updates in the rally scoreboard. When the system detects the ball colliding with the ground, it will trigger the feedback response 'GAME OVER!'. (Also if I have time), when the rally score becomes higher than a previously stored high score, the feedback 'NEW HIGH SCORE!' will be displayed on the screen.
 
 3. **Saving and Loading Data**
 
-The game will store high scores in the start menu and the game settings such as music and fx volume locally on the user's device. 
+If I have time, the game will store high scores in the start menu and the game settings such as music and fx volume locally on the user's device. 
 
 ---
 ### Non-Functional
