@@ -97,9 +97,57 @@ My project has minimal representation of any cultures and specific symbols as th
 ---
 ### Flowchart and Pseudocode
 
+```
+BEGIN Movement
+	INPUT userInput
+	IF '→' pressed THEN
+		Move player right
+	ELSE IF '←' pressed THEN
+		Move player left
+	ELSE IF '↑' pressed THEN
+		Move player forward
+	ELSE IF '↓' pressed THEN
+		Move player backward
+	ELSE IF ‘Spacebar’ pressed THEN
+		IF player touching ground THEN
+			Make player jump
+		END IF
+	END IF
+END Movement 
+```
+![Movement Pseudocode](images/Movement.png)
+
+```
+BEGIN Scoring
+	Score = 0
+	INPUT netcolliderInput
+	INPUT groundInput
+	WHILE groundInput is 0 THEN
+		IF netcolliderInput != 0 THEN
+			Score +=1
+	END WHILE
+	Stop game
+	DISPLAY “Game Over!”
+	Restart game
+END Scoring
+```
+![Scoring Pseudocode](images/Scoring.png)
+
+```
+BEGIN High_Score
+	LOOP Game
+		CALL Scoring
+	IF Score >  Highscore THEN
+			Highscore = Score
+	END IF
+	END LOOP
+END High_Score
+```
+![High Score Pseudocode](images/highscore.png)
+
 ---
 ### Storyboards
 
 ---
 ### Gantt Chart
-
+![Gantt Chart Screenshot](images/ganttchart.png)
