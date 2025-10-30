@@ -18,13 +18,13 @@
 
 ---
 ### Requirements Outline
-**Inputs** - The game will require the ↑ ↓ → ← keyboard keys for player movement as well as the space bar for jumping. It will also require mouse clicks for NPC conversations.
+**Inputs** - The game will require the ↑ ↓ → ← keyboard keys for player movement as well as the space bar for jumping. It will also require mouse clicks for UI elements like buttons and slider bars (in the settings).
 
-**Processes** - My project should be able to process keyboard inputs and calculate the new player position, check for the ball's collisions with ground to reset the simulation and rally score. It should also be able to identify when the ball goes over the net (through the use of colliders) and calculate the rally score accordingly. The game should also process player clicks on UI elements (speech choices) so NPC characters can respond accordingly.
+**Processes** - My project should be able to process keyboard inputs and calculate the new player position, check for the ball's collisions with ground to reset the simulation and rally score. It should also be able to identify when the ball goes over the net (through the use of colliders) and calculate the rally score accordingly. The game should also process player clicks on UI elements and respond accordingly.
 
 **Outputs** - The game will display the player's rally score, position in game and updates such as 'Game Over'. 
 
-**Storage** - The game will store the player's high scores locally, which they will be able to view in the start menu. The game will also store player settings, such as music and fx volume.
+**Storage** - The game may store the player's high scores locally, which they will be able to view in the start menu. The game may also store player settings, such as music and fx volume.
 
 ---
 ### Functional Requirements
@@ -52,7 +52,7 @@ The game should be extremely easy with an option for game instructions in the st
 
 3. **Security Requirements**
 
-The user data that will be in the game like the high score and game settings will be encrypted and stored securely without any sensitive information.
+The user data that will be in the game  like the high score and game settings will be encrypted and stored securely without any sensitive information.
 
 4. **Scalability Requirements**
 
@@ -147,7 +147,9 @@ END High_Score
 
 ---
 ### Storyboards
-
+![Splash Screen](images/splashscreen.jpg)
+![Game Scene](images/game_scene.jpg)
+![Settings Scene](images/settings_scene.jpg)
 ---
 ### Gantt Chart
 ![Gantt Chart Screenshot](images/ganttchart.png)
