@@ -151,6 +151,7 @@ END High_Score
 ![Splash Screen](images/splashscreen.jpg)
 ![Game Scene](images/game_scene.jpg)
 ![Settings Scene](images/settings_scene.jpg)
+![Whole Game Storyboard](images/storyboard.png)
 ---
 ### Gantt Chart
 ![Gantt Chart Screenshot](images/ganttchart.png)
