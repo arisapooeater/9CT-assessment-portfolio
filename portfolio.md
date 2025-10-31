@@ -125,6 +125,7 @@ BEGIN Scoring
 	WHILE groundInput is 0 THEN
 		IF netcolliderInput != 0 THEN
 			Score +=1
+		END IF
 	END WHILE
 	Stop game
 	DISPLAY “Game Over!”
