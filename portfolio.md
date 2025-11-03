@@ -26,6 +26,7 @@
 
 **Storage** - The game may store the player's high scores locally, which they will be able to view in the start menu. The game may also store player settings, such as music and fx volume.
 
+**Transmission** - If I expand the game further, the game may transmit high score data and username on a database to create an online leaderboard.
 ---
 ### Functional Requirements
 1. **User interaction**
